@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
 
 const Success = (props) => (
-    <div>
+    <Layout>
         <Helmet>
             <title>Success Page</title>
             <meta name="description" content="Success Page" />
@@ -21,8 +22,7 @@ const Success = (props) => (
                 </div>
             </section>
         </div>
-
-    </div>
+    </Layout>
 )
 
 export default Success
